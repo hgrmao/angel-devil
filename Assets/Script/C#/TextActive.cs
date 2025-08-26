@@ -6,9 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class TextActive : MonoBehaviour
 {
-    public Text resultText;
     public string SceneName;
-    private bool firstPush = false;
 
     private string selected1 = null;
     private string selected2 = null;
@@ -39,7 +37,6 @@ public class TextActive : MonoBehaviour
         if (selected1 != null && selected2 != null && selected3 != null)
         {
             SceneManager.LoadScene(SceneName);
-            firstPush = true;
         }
     }
 }

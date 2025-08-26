@@ -6,6 +6,9 @@ TagManager:
   tags:
   - BlackPiece
   - WhitePiece
+  - level
+  - partner
+  - stone
   layers:
   - Default
   - TransparentFX
